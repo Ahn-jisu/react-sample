@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 body{
   font-family: 'nanumsquare';
 }
@@ -21,12 +14,15 @@ body{
 .list{
   margin-top:30px;
   text-align: left;
-  padding:0 290px;
+  padding:0 20px;
+}
+button{
+  border:none;
+  text-decoration: none;
+  list-style: none;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
 
 .App-header {
